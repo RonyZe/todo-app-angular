@@ -1,0 +1,18 @@
+<div class="todo-list">
+    <mat-list>
+        <mat-list-item *ngFor="let todo of todoes; let index = index"> 
+          <div class="todo-item">
+              <div class="todo-item-detail">{{todo}} </div>
+              <a href="#" (click)="deleteTodo(index)" class="todo-item-delete-btn">X</a>
+          </div>
+        </mat-list-item>
+        
+    </mat-list>
+</div>
+
+<div class="todo-create">
+    <mat-form-field>
+        <input matInput #todo>
+    </mat-form-field>
+    <button mat-raised-button color="primary"  (click)="addTodo(todo.value); todo.value=''">Add</button>
+</div>

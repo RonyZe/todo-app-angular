@@ -1,0 +1,27 @@
+.todo-create {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.todo-item {
+    min-width: 250px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.todo-item-detail {
+    float: left;
+}
+
+.todo-item-delete-btn {
+    background-color: #c30e2e;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 10%;
+    margin-left: 20px;
+    float: right;
+    text-decoration: none;
+}

@@ -1,0 +1,14 @@
+.todo-card {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.todo-logo, .todo-title {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.todo-footer {
+    text-align: center;
+}
